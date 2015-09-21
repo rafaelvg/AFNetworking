@@ -11,7 +11,10 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '5.0'
   s.ios.frameworks = 'MobileCoreServices', 'SystemConfiguration'
-
+  
+  s.watchos.deployment_target = '2.0'
+  s.watchos.frameworks = 'MobileCoreServices', 'SystemConfiguration'
+  
   s.osx.deployment_target = '10.7'
   s.osx.frameworks = 'CoreServices', 'SystemConfiguration'
 
